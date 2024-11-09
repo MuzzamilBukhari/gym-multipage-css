@@ -1,0 +1,52 @@
+/* Navbar Container */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* Header Text and Link */
+.navbar-brand {
+  font-weight: 900;
+  font-size: 1.875rem; /* Equivalent to Tailwind's text-3xl */
+  color: white;
+  margin-left: 20px;
+}
+
+.navbar-brand .text-white {
+  color: white;
+}
+
+/* Navigation Menu */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  margin-left: auto;
+  font-size: 1rem;
+}
+
+.navbar-nav-lg-gap {
+  gap: 32px; /* Gap for large screens */
+}
+
+.navbar-button {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 32px;
+  background-color: black;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow equivalent to shadow-md */
+  border: 2px solid transparent;
+  outline: 2px solid #1d4ed8; /* Equivalent to ring-2 ring-primary */
+}

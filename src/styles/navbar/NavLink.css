@@ -1,0 +1,15 @@
+/* NavLink Link Styling */
+.nav-link {
+  font-size: 1.125rem; /* Equivalent to text-lg */
+  font-weight: 500; /* Equivalent to font-medium */
+  padding: 4px 12px; /* Equivalent to px-3 py-1 */
+  border-radius: 0.5rem; /* Equivalent to rounded-lg */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Equivalent to duration-300 */
+  color: inherit; /* Ensures it takes the inherited text color */
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #1d4ed8; /* Replace with primary color */
+  text-decoration: underline;
+}
