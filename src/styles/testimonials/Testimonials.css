@@ -1,0 +1,27 @@
+.testimonials-section {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.testimonials-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.testimonials-description {
+  max-width: 800px;
+  margin: 20px auto 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6;
+  padding-top: 32px;
+}
+
+.testimonials-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+  margin-top: 64px;
+}

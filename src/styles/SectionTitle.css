@@ -1,0 +1,25 @@
+/* styles.css */
+.section-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white; 
+  text-align: center; 
+  padding-top: 1rem; 
+}
+
+.highlight {
+  color: #C64FEC; /* Replace with your primary color */
+  text-decoration: underline; /* Equivalent to underline */
+}
+
+@media (min-width: 640px) {
+  .section-title{
+    font-size: 3.75rem; /* sm:text-6xl corresponds to font-size: 3.75rem on small screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-titlet {
+    font-size: 4.25rem; /* lg:text-7xl corresponds to font-size: 4.25rem on large screens */
+  }
+}

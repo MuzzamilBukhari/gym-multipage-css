@@ -1,0 +1,60 @@
+/* Services.css */
+.services-section {
+  background-color: #1c1c1c; /* Equivalent to bg-stone-950 */
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 6rem 0;
+}
+
+.services-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+/* Responsive styles */
+
+/* For small screens (mobile) */
+@media (max-width: 768px) {
+  .services-section {
+    padding: 4rem 0; /* Reduce padding on smaller screens */
+  }
+
+  .services-grid {
+    gap: 1rem; /* Reduce the gap between items */
+    margin-top: 4rem; /* Adjust margin on smaller screens */
+  }
+}
+
+/* For medium screens (tablet) */
+@media (max-width: 1024px) {
+  .services-container {
+    width: 85%; /* Adjust container width for tablet */
+  }
+
+  .services-grid {
+    gap: 1.25rem; /* Slightly reduce gap */
+    margin-top: 5rem; /* Adjust margin for medium screens */
+  }
+}
+
+/* For large screens (desktop) */
+@media (min-width: 1025px) {
+  .services-container {
+    width: 90%; /* Default container width for desktop */
+  }
+
+  .services-grid {
+    gap: 1.5rem; /* Standard gap between items */
+    margin-top: 7rem; /* Default margin for larger screens */
+  }
+}

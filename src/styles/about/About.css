@@ -1,0 +1,98 @@
+:root {
+  --primary: #C64FEC;
+}
+
+.about-container {
+  display: flex;
+  gap: 48px; /* gap-12 */
+  padding: 24px 16px; /* py-24 px-16 */
+  flex-direction: column; /* flex-col */
+  align-items: center; /* items-center */
+  justify-content: center; /* justify-center */
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    flex-direction: row; /* md:flex-row */
+  }
+}
+
+.image-container {
+  flex-shrink: 0; /* Prevent image from shrinking */
+  position: relative;
+  width: 520px;
+  height: 460px;
+}
+
+.about-image {
+  object-fit: cover; /* object-cover */
+  object-position: center; /* object-center */
+  border-radius: 8px; /* rounded */
+  box-shadow: 0px 2px 6px rgba(198, 79, 236, 1);
+  border: 2px solid #C64FEC ;
+  transition: transform 0.3s; /* transition for hover effect */
+}
+
+.about-title {
+  font-size: 3rem; /* text-4xl */
+  font-weight: 900; /* font-black */
+  color: #ffffff; /* text-white */
+}
+
+.highlight {
+  color: #C64FEC; /* text-secondary */
+}
+
+.about-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items by default */
+  text-align: center; /* Center text by default */
+  margin-top: 24px; /* mt-10 */
+  line-height: 1.75; /* leading-relaxed */
+  text-align: center; /* text-center */
+}
+
+@media (min-width: 768px) {
+  .about-description {
+    align-items: flex-start; /* Align items to start on medium screens and above */
+    text-align: left; /* Align text to the left on medium screens and above */
+  }
+}
+
+.text-container {
+  flex-grow: 1; /* lg:flex-grow */
+  width: 50%; /* md:w-1/2 */
+  text-align: center; /* text-center */
+}
+
+@media (min-width: 768px) {
+  .text-container {
+    text-align: left; /* md:text-left */
+    padding-left: 64px; /* lg:pl-24 */
+    padding-left: 48px; /* md:pl-16 */
+  }
+}
+
+.cta-button {
+  display: inline-flex;
+  font-size: 1.125rem; /* Large font size */
+  font-weight: 500; /* Medium font weight */
+  color: #ffffff; /* White text */
+  margin-top: 2.5rem; /* Top margin */
+  border: none; /* No border */
+  padding: 0.5rem 1.5rem; /* Padding (vertical and horizontal) */
+  background-color: #000000; /* Black background */ 
+  box-shadow: 0px 4px 6px rgba(198, 79, 236, 1);
+  border: 2px solid #C64FEC ;
+  outline: none; /* No outline on focus */
+  border-radius: 0.5rem; /* Large border radius */
+  transition: transform 0.3s ease; /* Smooth transform */
+}
+
+.cta-button:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+.cta-button:focus-visible {
+  outline: none;
+}

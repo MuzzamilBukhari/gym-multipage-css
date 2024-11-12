@@ -1,8 +1,9 @@
 import Link from "next/link";
 import React from "react";
 import NavLink from "./NavLink";
-// import { Button } from "../";
-import "@/styles/navbar/Navbar.css"; // Import the new CSS file
+import { Button } from "../";
+import { MdFitnessCenter } from "react-icons/md";
+import "@/styles/navbar/Navbar.css";
 
 const navItems = [
   { id: 1, name: "Home", slug: "/" },
@@ -13,21 +14,34 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <header className="navbar-container">
+    <header className="navbar">
       <div className="container">
-        <div className="navbar-brand">
-          <Link href="/" className="navbar-brand">
-            <span className="text-white">Xtreme</span> Fitness
+        <div className="logo">
+          <MdFitnessCenter size={35} />
+          <Link
+            href="/"
+            className="logo-link"
+            aria-label="Extreme Fitness Home"
+          >
+            <span className="logo-text">Extreme</span>Fitness
           </Link>
         </div>
-        <nav className="navbar-nav navbar-nav-lg-gap">
+        <nav className="nav" aria-label="Main Navigation">
           {navItems.map((item) => (
             <NavLink slug={item.slug} key={item.id} name={item.name} />
           ))}
         </nav>
-        <button type="button" className="navbar-button">
-          Join us
-        </button>
+        <div className="join-btn">
+          <a
+            href="https://www.linkedin.com/in/huzaifa-naeem-8949692b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button type="button" className="button">
+              Join us
+            </Button>
+          </a>
+        </div>
       </div>
     </header>
   );

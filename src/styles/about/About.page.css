@@ -1,0 +1,45 @@
+/* Section Styling */
+.about-section {
+  background-color: black;
+  color: white;
+  width: 100%;
+ height: 100%;
+  margin-top: 4rem; /* mt-32 */
+  padding-bottom: 2rem; /* pb-8 */
+  padding-top: 2rem; /* pt-8 */
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem; /* px-4 */
+}
+
+/* Section Title Styling */
+.section-title {
+  font-size: 4rem;
+  font-weight: black;
+  text-align: center;
+  color: white;
+}
+
+.section-title .first {
+  color: #4CAF50; /* Adjust the color for 'first' */
+}
+
+.section-title .second {
+  color: white;
+}
+
+/* About Paragraph Styling */
+.about-paragraph {
+  width: 66.66667%; /* lg:w-2/3 */
+  margin: 0 auto;
+  line-height: 1.625;
+  margin-top: 0.5rem; /* mt-2 */
+  text-base: 1rem;
+  color: white;
+  text-align: center;
+  padding-bottom: 2rem; /* pb-8 */
+  padding-top: 2rem; /* pt-8 */
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem; /* px-4 */
+}
+
+/* Add any custom styles for AboutComp */

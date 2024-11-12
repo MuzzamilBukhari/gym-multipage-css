@@ -1,52 +1,115 @@
-/* Navbar Container */
-.navbar-container {
-  display: flex;
+
+.navbar {
+  color: #ffffff; 
+  font-family: 'YourFontFamily', sans-serif; 
+  background-color: black; 
+  display: none; 
+  position: fixed; 
+  width: 100%; 
+  top: 0; 
+  left: 0; 
+  z-index: 10; 
+}
+
+.container {
+  width: 100vw;
+  display: flex; 
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
-  padding: 20px;
-  background-color: black;
-  color: white;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 10;
+
+  padding: 1.5rem; 
 }
 
-/* Header Text and Link */
-.navbar-brand {
-  font-weight: 900;
-  font-size: 1.875rem; /* Equivalent to Tailwind's text-3xl */
-  color: white;
-  margin-left: 20px;
-}
 
-.navbar-brand .text-white {
-  color: white;
-}
-
-/* Navigation Menu */
-.navbar-nav {
+.logo {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-top: 20px;
-  margin-left: auto;
+  font-weight: black; /* Equivalent to font-black */
+  font-size: 1.5rem;
+  color: #C64FEC;
+}
+
+.logo-link {
+  display: flex; 
+  align-items: center; 
+  font-weight: 900; 
+  font-size: 1.875rem; 
+  margin-left: 0;
+}
+
+.icon {
+  font-size: 5rem; 
+  color: #C64FEC ; 
+  /* margin-right: 0.25rem; */
+}
+
+.logo-text {
+  font-size: 1.875rem;
+  color: white;
+}
+
+
+.nav  {
+  display: flex; 
+  align-items: center;
+  font-size: 1rem; 
+  justify-content: center; 
+}
+
+.nav-link:hover  {
+  color: white;
+  
   font-size: 1rem;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 0.3s;
 }
 
-.navbar-nav-lg-gap {
-  gap: 32px; /* Gap for large screens */
+.nav-link:hover  {
+  color: #C254DE; 
 }
 
-.navbar-button {
+
+.join-btn {
+  margin-left: 1rem;
+}
+
+.button {
   padding-top: 2px;
-  padding-bottom: 2px;
-  margin-left: 32px;
-  background-color: black;
-  border: none;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow equivalent to shadow-md */
-  border: 2px solid transparent;
-  outline: 2px solid #1d4ed8; /* Equivalent to ring-2 ring-primary */
+  padding-bottom: 2px; 
+  margin-left: 2rem; 
+  background-color: #000; 
+  border-style: none; 
+  box-shadow: 0px 2px 6px rgba(198, 79, 236, 1); 
+  border: 2px solid #C64FEC;
+}
+
+.button:hover {
+  box-shadow: 0px 2px 6px rgba(198, 79, 236, 1);
+}
+
+@media (min-width: 768px) { 
+  .navbar {
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-link {
+    margin-left: 1.25rem; 
+  }
+}
+
+@media (min-width: 768px) { 
+  .nav {
+    margin-left: auto; 
+    margin-top: 0; 
+  }
+}
+
+@media (min-width: 1024px) { 
+  .nav {
+    gap: 2rem; 
+  }
 }

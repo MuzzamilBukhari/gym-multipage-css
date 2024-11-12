@@ -1,0 +1,91 @@
+:root {
+  --primary: #C64FEC; /* Primary color */
+  --secondary: #C254DE; /* Secondary color */
+}
+
+.trainer-card {
+  padding: 1rem;
+}
+
+.trainer-info {
+  height: 100%; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.trainer-image {
+  width: 200;
+  height: 200;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  object-position: center; 
+  border-radius: 0.5rem;
+  margin-bottom: 1rem; 
+  border: 2px solid var(--primary); 
+  box-shadow: 0px 2px 6px rgba(198, 79, 236, 1);
+}
+
+.trainer-text {
+  flex-grow: 1;
+}
+
+.trainer-name {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.trainer-description {
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: inline-flex;
+}
+
+.social-icon {
+  width: 1.5rem;
+  height: 1.5rem; 
+  transition: transform 0.4s ease, color 0.4s ease;
+  display: inline-flex;
+  margin-right: 2rem;
+}
+
+.social-icon:last-child {
+  margin-right: 0; 
+}
+
+.social-icon:hover {
+  color: var(--secondary); 
+  transform: scale(1.1);
+}
+
+@media (min-width: 1024px) { 
+  .trainer-card {
+    width: 50%; 
+  }
+}
+
+@media (min-width: 640px) { 
+  .trainer-info  {
+    flex-direction: row;
+    justify-content: flex-start; 
+    text-align: left;
+  }
+}
+
+@media (min-width: 640px) { /* sm breakpoint (640px and up) */
+  .trainer-image {
+    margin-bottom: 0; /* sm:mb-0 removes margin-bottom at sm breakpoint */
+  }
+}
+
+@media (min-width: 640px) { /* sm breakpoint (640px and up) */
+  .trainer-text {
+    padding-left: 2rem; /* sm:pl-8 adds padding-left of 2rem (8 * 0.25rem = 2rem) */
+  }
+}

@@ -1,0 +1,92 @@
+/* Mobile Navbar Styles */
+
+  .mobile-navbar {
+    color: #C64FEC; 
+    font-family: 'YourFontFamily', sans-serif; 
+    background-color: #000; 
+    display: flex; 
+    flex-direction: column; 
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    z-index: 10; 
+  }
+
+  .navbar-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem; /* Equivalent to p-5 */
+  }
+
+  .logo {
+  display: flex;
+  align-items: center;
+  font-weight: 900; /* Equivalent to font-black */
+  font-size: 1.5rem;
+  }
+
+  .logo-icon {
+    font-size: 1.875rem;
+    color: #C64FEC;
+    margin-right: 0.25rem;
+  }
+
+  .logo-text-white {
+    color: white;
+  }
+
+  .logo-text-primary {
+    color: #C64FEC;
+  }
+
+  .menu-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .menu-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 10rem;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: black;
+    border-radius:0.375rem;
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 4rem;
+    width: 12rem;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+
+/* Hide the mobile navbar on screens wider than 768px */
+@media (min-width: 769px) {
+  .mobile-navbar {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) { /* md: breakpoint */
+  .mobile-navbar {
+    display: none; /* Hides the element on medium screens and above */
+  }
+}

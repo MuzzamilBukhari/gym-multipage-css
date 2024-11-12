@@ -1,0 +1,54 @@
+:root {
+  --bg-black: #000000;
+  --text-white: #ffffff; 
+  --lg-width: 66.6667%; 
+  --text-base: 1rem; 
+  --pt-8: 2rem;
+}
+
+.trainers-section {
+  font-family: 'YourBodyFont', sans-serif; 
+  background-color: var(--bg-black); 
+  color: var(--text-white);
+  margin-top: 5rem;
+}
+
+.section-content {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin-left: 1rem; 
+  margin-right: 1rem;
+  flex-direction: column; 
+  padding-top: 5rem;
+}
+
+.title-container {
+  text-align: center;
+  width: 100%;
+}
+
+.description-text {
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 0.5rem; 
+  line-height: 1.625; 
+  font-size: var(--text-base); 
+  padding-top: var(--pt-8);
+}
+
+.trainers-container {
+  margin-left: 1rem; 
+  margin-right: 1rem;
+}
+
+
+
+
+
+
+@media (min-width: 1024px) {
+  .description-text {
+    width: var(--lg-width);
+  }
+}

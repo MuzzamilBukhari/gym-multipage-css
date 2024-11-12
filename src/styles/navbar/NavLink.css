@@ -1,15 +1,15 @@
-/* NavLink Link Styling */
 .nav-link {
-  font-size: 1.125rem; /* Equivalent to text-lg */
-  font-weight: 500; /* Equivalent to font-medium */
-  padding: 4px 12px; /* Equivalent to px-3 py-1 */
-  border-radius: 0.5rem; /* Equivalent to rounded-lg */
-  transition: color 0.3s ease, text-decoration 0.3s ease; /* Equivalent to duration-300 */
-  color: inherit; /* Ensures it takes the inherited text color */
-  text-decoration: none;
+  font-size: 1.125rem; 
+  font-weight: 500; 
+  border-radius: 0.5rem; 
+  padding: 0.25rem 0.75rem; 
+  transition-duration: 300ms; 
 }
 
 .nav-link:hover {
-  color: #1d4ed8; /* Replace with primary color */
+  outline: none;
+  box-shadow: 0 0 0 2px var(#c64fec);
+  text-decoration: underline;
+  color: #c64fec;
   text-decoration: underline;
 }

@@ -1,0 +1,96 @@
+/* Container for the entire footer */
+.footer-container {
+  background-color: black;
+  color: white;
+}
+
+/* Flex container for footer content */
+.footer-content {
+  max-width: 100%; 
+  padding-left: 1.25rem;
+  padding-right: 1.25rem; 
+  padding-top: 2rem; 
+  padding-bottom: 2rem; 
+  margin-left: auto; 
+  margin-right: auto;
+  display: flex; 
+  align-items: center; 
+  flex-direction: column; 
+}
+
+/* Logo styling */
+.footer-logo {
+  display: flex; 
+  font-family: 'YourTitleFont', sans-serif; 
+  font-weight: 500; 
+  align-items: center; 
+  justify-content: center; 
+  color: white; 
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: bold; 
+  color: white; 
+  margin-left: 0.75rem;
+}
+
+.footer-highlight { 
+  color: #C64FEC;
+}
+
+/* Copyright section */
+.footer-copyright {
+  font-size: 1rem; 
+  color: white; 
+  margin-top: 1rem;
+}
+
+/* Social links container */
+.footer-social-links {
+  display: inline-flex; 
+  justify-content: center; 
+  margin-top: 1rem;
+}
+
+/* Individual social icons */
+.social-icon {
+  color: white;
+  width: 4rem; 
+  height: 4rem; 
+  transition: transform 0.4s ease, color 0.4s ease;
+}
+
+.social-icon:hover {
+  color: #C64FEC; /* Secondary color */
+  transform: scale(1.1);
+}
+
+.social-icon-spacing {
+  margin-left: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .footer-content {
+    flex-direction: row; /* sm:flex-row corresponds to flex-direction: row on small screens (min-width 640px) */
+  }
+}
+
+@media (min-width: 640px) { /* sm: applies styles for screens with min-width of 640px */
+  .footer-copyright{
+    margin-left: 1rem; /* sm:ml-4 corresponds to margin-left: 1rem */
+    padding-left: 1rem; /* sm:pl-4 corresponds to padding-left: 1rem */
+    border-left: 2px solid #C64FEC; /* sm:border-l-2 sm:border-primary corresponds to a 2px left border with primary color */
+    padding-top: 0.5rem; /* sm:py-2 corresponds to padding-top and padding-bottom: 0.5rem */
+    padding-bottom: 0.5rem; /* sm:py-2 corresponds to padding-top and padding-bottom: 0.5rem */
+    margin-top: 0; /* sm:mt-0 corresponds to margin-top: 0 */
+  }
+}
+
+@media (min-width: 640px) { /* sm: applies styles for screens with min-width of 640px */
+  .footer-social-links {
+    margin-left: auto; /* sm:ml-auto corresponds to margin-left: auto */
+    margin-top: 0; /* sm:mt-0 corresponds to margin-top: 0 */
+    justify-content: flex-start; /* sm:justify-start corresponds to justify-content: flex-start */
+  }
+}
