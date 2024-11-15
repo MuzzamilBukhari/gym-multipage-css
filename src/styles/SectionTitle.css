@@ -8,13 +8,13 @@
 }
 
 .highlight {
-  color: #C64FEC; /* Replace with your primary color */
-  text-decoration: underline; /* Equivalent to underline */
+  color: #06b6d4; /* primary color */
+  text-decoration: underline; 
 }
 
 @media (min-width: 640px) {
   .section-title{
-    font-size: 3.75rem; /* sm:text-6xl corresponds to font-size: 3.75rem on small screens */
+    font-size: 3.75rem;  
   }
 }
 
@@ -23,3 +23,7 @@
     font-size: 4.25rem; /* lg:text-7xl corresponds to font-size: 4.25rem on large screens */
   }
 }
+
+
+
+

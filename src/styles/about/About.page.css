@@ -6,7 +6,7 @@
  height: 100%;
   margin-top: 4rem; /* mt-32 */
   padding-bottom: 2rem; /* pb-8 */
-  padding-top: 2rem; /* pt-8 */
+  padding-top: 7rem; /* pt-8 */
   padding-left: 1rem; /* px-4 */
   padding-right: 1rem; /* px-4 */
 }
@@ -20,7 +20,7 @@
 }
 
 .section-title .first {
-  color: #4CAF50; /* Adjust the color for 'first' */
+  color: #06b6d4; /* Adjust the color for 'first' */
 }
 
 .section-title .second {
@@ -43,3 +43,5 @@
 }
 
 /* Add any custom styles for AboutComp */
+
+

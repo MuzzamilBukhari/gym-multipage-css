@@ -6,9 +6,9 @@ const Trainers = () => {
   const trainersInfo = [
     {
       id: 1,
-      name: "RAMEEZ",
+      name: "HAMZA",
       desc:
-        "Cardio Trainer Specializing in stamina and cardiovascular health, Hamza helps clients boost endurance and burn fat with high-intensity workouts.",
+        "Cardio Trainer dedicated to improving stamina and cardiovascular health.",
       profile: "/images/trainer1.jpg",
       fbLink: "www.facebook.com",
       xLink: "www.x.com",
@@ -16,9 +16,9 @@ const Trainers = () => {
     },
     {
       id: 2,
-      name: "KASHAN",
+      name: "MUZZAMIL",
       desc:
-        "Strength & Conditioning Coach Ayesha focuses on building strength and muscle through personalized training programs tailored to each client’s needs.",
+        "Nutrition Coach focused on personalized meal planning for optimal fitness.",
       profile: "/images/trainer2.jpg",
       fbLink: "www.facebook.com",
       xLink: "www.x.com",
@@ -26,9 +26,9 @@ const Trainers = () => {
     },
     {
       id: 3,
-      name: "HUZAIFA",
+      name: "SARA",
       desc:
-        "Yoga & Flexibility Instructor Omar enhances flexibility and balance, guiding clients through yoga and mindful stretching for improved mobility and relaxation.",
+        "Strength & Conditioning Coach specializing in power and endurance training.",
       profile: "/images/trainer3.jpg",
       fbLink: "www.facebook.com",
       xLink: "www.x.com",
@@ -36,9 +36,9 @@ const Trainers = () => {
     },
     {
       id: 4,
-      name: "TAHA",
+      name: "HUZAIFA",
       desc:
-        "Nutrition & Wellness Expert Sara offers customized nutrition plans to complement your fitness goals, helping you achieve peak performance and maintain a healthy lifestyle.",
+        "Mobility & Flexibility Trainer enhancing range of motion and preventing injuries.",
       profile: "/images/trainer4.jpg",
       fbLink: "www.facebook.com",
       xLink: "www.x.com",

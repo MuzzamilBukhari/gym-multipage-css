@@ -11,16 +11,16 @@ const Footer = () => {
         <div className="footer-content">
           <Link className="footer-logo" href={"/"}>
             <span className="footer-title">
-              Evolve
-              <span className="footer-highlight"> Fit</span>
+              Xtreme
+              <span className="footer-highlight"> Fitness</span>
             </span>
           </Link>
           <p className="footer-copyright">
-            © 2024 Evolve <span className="footer-highlight">Fit</span>
+            © 2024 Xtreme <span className="footer-highlight">Fitness</span>
           </p>
           <span className="footer-social-links">
             <a
-              href="https://www.facebook.com/share/91NKfwYSFLSKCXBX/?mibextid=qi2Omg"
+              href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -28,7 +28,7 @@ const Footer = () => {
             </a>
             <a
               className="social-icon-spacing"
-              href="https://x.com/Huzai_fa123?t=DnFYfJoMreRFqN08hnQP6A&s=09"
+              href="https://x.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -36,7 +36,7 @@ const Footer = () => {
             </a>
             <a
               className="social-icon-spacing"
-              href="https://www.instagram.com/__.zefa.__?igsh=a2J4a3dvcWF2Njg5"
+              href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -44,7 +44,7 @@ const Footer = () => {
             </a>
             <a
               className="social-icon-spacing"
-              href="https://www.linkedin.com/in/huzaifa-naeem-8949692b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              href="https://www.linkedin.com/in/"
               target="_blank"
               rel="noopener noreferrer"
             >

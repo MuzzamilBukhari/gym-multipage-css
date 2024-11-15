@@ -1,10 +1,11 @@
 :root {
-  --primary: #C64FEC;
+  --primary: #06b6d4;
 }
 
 .about-container {
   display: flex;
   gap: 48px; /* gap-12 */
+  margin-top: 40px;
   padding: 24px 16px; /* py-24 px-16 */
   flex-direction: column; /* flex-col */
   align-items: center; /* items-center */
@@ -28,8 +29,8 @@
   object-fit: cover; /* object-cover */
   object-position: center; /* object-center */
   border-radius: 8px; /* rounded */
-  box-shadow: 0px 2px 6px rgba(198, 79, 236, 1);
-  border: 2px solid #C64FEC ;
+  box-shadow: 0px 2px 6px rgba(6, 182, 212, 1);
+  border: 2px solid #06b6d4 ;
   transition: transform 0.3s; /* transition for hover effect */
 }
 
@@ -40,7 +41,7 @@
 }
 
 .highlight {
-  color: #C64FEC; /* text-secondary */
+  color: #0891b2; /* text-secondary */
 }
 
 .about-description {
@@ -83,8 +84,8 @@
   border: none; /* No border */
   padding: 0.5rem 1.5rem; /* Padding (vertical and horizontal) */
   background-color: #000000; /* Black background */ 
-  box-shadow: 0px 4px 6px rgba(198, 79, 236, 1);
-  border: 2px solid #C64FEC ;
+  box-shadow: 0px 4px 6px rgba(6, 182, 212, 1);
+  border: 2px solid #06b6d4 ;
   outline: none; /* No outline on focus */
   border-radius: 0.5rem; /* Large border radius */
   transition: transform 0.3s ease; /* Smooth transform */
@@ -96,3 +97,6 @@
 .cta-button:focus-visible {
   outline: none;
 }
+
+
+

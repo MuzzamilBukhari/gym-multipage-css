@@ -60,9 +60,8 @@ const Pricing = () => {
         <div className="pricing-header">
           <SectionTitle first="Pricing" second="Plans" />
           <p className="pricing-description">
-            Whether you’re looking for flexibility or the best value, we have
-            options for you. Choose between monthly or annual plans and take the
-            first step towards achieving your fitness goals.
+            Choose a plan that fits your fitness journey. Monthly or annual
+            options available.
           </p>
           <div className="billing-cycle-selector">
             {["Monthly", "Annually"].map((cycle) => (

@@ -19,20 +19,17 @@ const About = () => {
           <span className="highlight"> Choose Us?</span>
         </h1>
         <p className="about-description">
-          Personalized Training: Tailored fitness plans to meet your unique
-          goals and needs.
+          Our diverse membership base creates a friendly and supportive
+          atmosphere, where you can make friends and stay motivated.
           <br />
           <br />
-          Expert Trainers: Our certified trainers provide guidance and
-          motivation every step of the way.
+          Unlock your potential with our expert Personal Trainers.
           <br />
           <br />
-          Motivating Community: Join a supportive and encouraging environment
-          that pushes you to succeed.
+          Elevate your fitness with practice sessions.
           <br />
           <br />
-          Flexible Timings: Convenient hours to fit your busy lifestyle and
-          fitness goals.
+          We provide Supportive management, for your fitness success.
         </p>
 
         <button className="cta-button">Get Started with a Free Lesson!</button>

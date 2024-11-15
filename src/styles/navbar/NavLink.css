@@ -8,8 +8,9 @@
 
 .nav-link:hover {
   outline: none;
-  box-shadow: 0 0 0 2px var(#c64fec);
+  box-shadow: 0 0 0 2px var(#06b6d4);
   text-decoration: underline;
-  color: #c64fec;
+  color: #06b6d4;
   text-decoration: underline;
 }
+

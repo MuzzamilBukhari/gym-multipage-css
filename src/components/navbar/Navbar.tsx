@@ -3,6 +3,7 @@ import React from "react";
 import NavLink from "./NavLink";
 import { Button } from "../";
 import { MdFitnessCenter } from "react-icons/md";
+import { CgGym } from "react-icons/cg";
 import "@/styles/navbar/Navbar.css";
 
 const navItems = [
@@ -17,7 +18,7 @@ const Navbar = () => {
     <header className="navbar">
       <div className="container">
         <div className="logo">
-          <MdFitnessCenter size={35} />
+          <CgGym size={40} />
           <Link
             href="/"
             className="logo-link"
@@ -32,15 +33,9 @@ const Navbar = () => {
           ))}
         </nav>
         <div className="join-btn">
-          <a
-            href="https://www.linkedin.com/in/huzaifa-naeem-8949692b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button type="button" className="button">
-              Join us
-            </Button>
-          </a>
+          <Button type="button" className="button">
+            Join us
+          </Button>
         </div>
       </div>
     </header>

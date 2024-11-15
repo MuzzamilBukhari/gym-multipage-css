@@ -7,23 +7,23 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "James",
+      name: "SAMEER AWAN",
       desc:
-        "EvolveFit has completely transformed my approach to fitness! The trainers are so motivating, and the workouts are challenging but enjoyable. I've seen amazing results and feel stronger every day.",
+        "Joining this gym has been a game-changer for me! The trainers are knowledgeable, and the support from the community keeps me motivated every day.",
       imgSrc: "/images/testemonial1.jpg",
     },
     {
       id: 2,
-      name: "Alex M",
+      name: "SAAD ALI",
       desc:
-        "Joining EvolveFit was the best decision for my health. The support and encouragement I get from the team make all the difference. I’ve lost weight, gained muscle, and found a community that keeps me going!",
+        "I’ve seen amazing progress in just a few months. The equipment is top-notch, and the atmosphere is always welcoming!",
       imgSrc: "/images/testemonial2.jpg",
     },
     {
       id: 3,
-      name: "Henry",
+      name: "USAMA KHAN",
       desc:
-        "I never thought I'd enjoy going to the gym, but EvolveFit changed that. Their personalized approach helped me achieve my goals without feeling overwhelmed. I’m in the best shape of my life, and I owe it all to the EvolveFit family!",
+        "This is more than a gym—it's a second home. I've not only achieved my fitness goals but also gained confidence and new friends along the way!",
       imgSrc: "/images/testemonial3.jpg",
     },
   ];
@@ -33,9 +33,7 @@ const Testimonials = () => {
       <div className="testimonials-container">
         <SectionTitle first="Our" second="Testimonials" />
         <p className="testimonials-description">
-          See how EvolveFit has helped transform the lives of our clients. Their
-          stories of dedication, progress, and success speak to the impact of
-          our programs and the strength of our community.
+          Real Results, Real Stories: See What Our Members Have to Say!
         </p>
         <div className="testimonials-cards">
           {testimonials.map((testimonial) => (

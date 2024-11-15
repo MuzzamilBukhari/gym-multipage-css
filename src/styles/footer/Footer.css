@@ -36,7 +36,7 @@
 }
 
 .footer-highlight { 
-  color: #C64FEC;
+  color: #06b6d4;
 }
 
 /* Copyright section */
@@ -62,7 +62,7 @@
 }
 
 .social-icon:hover {
-  color: #C64FEC; /* Secondary color */
+  color: #06b6d4; /* Secondary color */
   transform: scale(1.1);
 }
 
@@ -80,7 +80,7 @@
   .footer-copyright{
     margin-left: 1rem; /* sm:ml-4 corresponds to margin-left: 1rem */
     padding-left: 1rem; /* sm:pl-4 corresponds to padding-left: 1rem */
-    border-left: 2px solid #C64FEC; /* sm:border-l-2 sm:border-primary corresponds to a 2px left border with primary color */
+    border-left: 2px solid #06b6d4; /* sm:border-l-2 sm:border-primary corresponds to a 2px left border with primary color */
     padding-top: 0.5rem; /* sm:py-2 corresponds to padding-top and padding-bottom: 0.5rem */
     padding-bottom: 0.5rem; /* sm:py-2 corresponds to padding-top and padding-bottom: 0.5rem */
     margin-top: 0; /* sm:mt-0 corresponds to margin-top: 0 */
@@ -94,3 +94,6 @@
     justify-content: flex-start; /* sm:justify-start corresponds to justify-content: flex-start */
   }
 }
+
+
+

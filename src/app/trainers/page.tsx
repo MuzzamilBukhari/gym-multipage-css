@@ -10,9 +10,10 @@ const page = () => {
           <div className="title-container">
             <SectionTitle first="Our" second="Trainers" />
             <p className="description-text">
-              Our certified trainers are dedicated to guiding you every step of
-              the way. With personalized fitness plans and expert advice, we
-              ensure you reach your goals efficiently and safely.
+              Meet our dedicated trainers who are here to help you, from
+              strength training to flexibility and endurance, each team member
+              brings unique expertise to ensure you get the most out of every
+              session. Let’s crush those goals together!
             </p>
           </div>
           <div className="trainers-container">

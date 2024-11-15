@@ -1,5 +1,5 @@
 import { HeroSection, Services, Testimonials, Contact } from "@/components";
-import "../styles/page.css";
+// import "../styles/page.css";
 export default function Home() {
   return (
     <div>

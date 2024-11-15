@@ -10,8 +10,9 @@ const Contact = () => {
           <div className="contact-header">
             <SectionTitle first="Contact" second="Us" />
             <p className="contact-description">
-              Have questions or need help getting started? Reach out to us—we’re
-              here to guide you on your fitness journey every step of the way!
+              We’d love to hear from you! Whether you have questions about our
+              services, want to schedule a consultation, or need assistance, our
+              team is here to help. Reach out to us today!
             </p>
           </div>
           <div className="contact-form-wrapper">

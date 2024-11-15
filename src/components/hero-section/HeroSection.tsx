@@ -11,21 +11,20 @@ const HeroSection = () => {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
-            Elevate Your
+            Build Your
             <br className="hidden-lg" />
-            <span className="hero-highlight"> Fitness </span>
+            <span className="hero-highlight"> Dream Physique </span>
           </h1>
           <p className="hero-description">
-            Achieve strength and endurance with EvolveFit. Our expert-led
-            programs
+            Unlock your potential with our expert Personal Trainers.
             <br />
-            and supportive community will help you reach your fitness goals.
+            Elevate your fitness with practice sessions.
             <br />
             Join us today!
           </p>
           <a
             className="hero-button-link"
-            href="https://www.linkedin.com/in/huzaifa-naeem-8949692b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >
