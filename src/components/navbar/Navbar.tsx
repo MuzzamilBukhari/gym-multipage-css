@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import NavLink from "./NavLink";
 import { Button } from "../";
-import { MdFitnessCenter } from "react-icons/md";
 import { CgGym } from "react-icons/cg";
 import "@/styles/navbar/Navbar.css";
 
